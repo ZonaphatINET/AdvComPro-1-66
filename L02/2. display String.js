@@ -5,4 +5,4 @@ console.log('Hello, World!');
 
 console.log("Hello, %s!", place);
 
-console.log('${massage}, ${place}!')
+console.log(`${massage}, ${place}!`)

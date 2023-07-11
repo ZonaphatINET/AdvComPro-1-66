@@ -1,10 +1,8 @@
-//var let const
-
 var hello = "Hello world";
 
 console.log(hello);
 hello = "Hellow world";
-console.log(world);
+console.log(hello);
 
 if (true) {
     let world = "Hellow world";
