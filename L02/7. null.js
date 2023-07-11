@@ -7,3 +7,5 @@ function getVowels(str) {
 }
 
 console.log(getVowels("seeing"));
+
+///มีตัวแปลแต่ไม่มีค่าอยู่ข้างใน

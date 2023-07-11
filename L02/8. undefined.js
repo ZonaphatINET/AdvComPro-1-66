@@ -5,5 +5,7 @@ function test(t) {
     return t;
 }
 
-let x;
+let x = 's';
 console.log(test(x));
+
+///ยังไม่กำหนดค่าใดๆ
