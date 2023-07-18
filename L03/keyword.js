@@ -2,7 +2,7 @@ var name = "Fatena";
 
 function fun(){
     console.log(this.name)
-}
+};
 
 const user = {
     name: "Marium",
@@ -11,7 +11,7 @@ const user = {
         const currentYear = new Date().getFullYear();
         return currentYear - this.yearOfBirth;
     }
-}
+};
 
 fun()
 user.calcAge()
