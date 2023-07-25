@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h2> My First web page </h2>
+    <p>My First web page</p>
+
+    <p id="demo"></p>
+
+    <script>
+        try {
+            lalala; // error, variable is not defined!
+        }   catch (err) {
+            alert(err.message); // ReferenceError lalala is not defined
+            alert(err.name);
+            alert(err.stack);
+            // ReferenceError: lalala is not defined at (...call stack)
+
+            // can also show an error as a whole
+            // the error is converted to string as "name: message"
+            alert(err);// ReferenceError: lalala is not defined
+        }
+    </script>
+</body>
+</html>
