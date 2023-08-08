@@ -15,6 +15,8 @@ async function msg() {
     }
 }
 
+
+//random
 msg();// Nope 😠
 msg();// Lucky!!
 msg();// Lucky!!
