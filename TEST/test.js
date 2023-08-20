@@ -17,4 +17,4 @@ function findDuplicates(strings) {
 
 const duplicates = findDuplicates(string3);
 const duplicatesString = duplicates.join(', '); // แปลงอาร์เรย์เป็นสตริงแยกด้วยเครื่องหมาย ", "
-console.log(duplicatesString); // ผลลัพธ์คือ "compute"
+console.log(duplicatesString); // ผลลัพธ์คือ "compute" .
