@@ -1,16 +1,20 @@
-const readline = require('readline');
+const string3 = ["computer", "computing", "compute", "computation"];
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+function findDuplicates(strings) {
+  const uniqueWords = new Set();
+  const duplicates = [];
 
-function trimTrailingZeros(inputString) {
-  return parseFloat(inputString).toString();
+  for (const word of strings) {
+    if (uniqueWords.has(word)) {
+      duplicates.push(word);
+    } else {
+      uniqueWords.add(word);
+    }
+  }
+
+  return duplicates;
 }
 
-rl.question('Enter a string: ', (inputString) => {
-  const trimmedString = trimTrailingZeros(inputString);
-  console.log(`The input string is ${inputString} output is ${trimmedString}`);
-  rl.close();
-});
+const duplicates = findDuplicates(string3);
+const duplicatesString = duplicates.join(', '); // แปลงอาร์เรย์เป็นสตริงแยกด้วยเครื่องหมาย ", "
+console.log(duplicatesString); // ผลลัพธ์คือ "compute" .
