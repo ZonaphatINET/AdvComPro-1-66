@@ -15,7 +15,7 @@ function frequencySort(s) {
     }
     return res;
 }
-
 console.log(frequencySort("tree"));
 console.log(frequencySort("cccaaa"));
 console.log(frequencySort("Aabb"));
+//เอาคำซ้ำขึ้นมาก่อน

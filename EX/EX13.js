@@ -36,7 +36,6 @@ function bomb(sensorData) {
     return calculateExplosionPosition(sensor1, sensor2, sensor3);
 }
 
-// ตัวอย่างการใช้งาน
+// การใช้งาน
 console.log(bomb([[0, 0, 72.886], [0, 50, 72.886], [25, 25, 72.886]]))
 console.log(bomb([[0, 50, 145.773], [50, 50, 206.154], [50, 0, 145.773]]))
-console.log(bomb([[0, 0, 72.886], [0, 50, 72.886], [25, 25, 72.886]]))
